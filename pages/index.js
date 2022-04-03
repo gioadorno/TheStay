@@ -13,6 +13,7 @@ export default function Home({ exploreData, cardsData }) {
       <Head>
         <title>TheStay</title>
         <meta name="description" content="Showcasing places to rent/stay" />
+        <meta charSet='utf-8' />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
