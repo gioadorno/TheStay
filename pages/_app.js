@@ -1,6 +1,8 @@
 import '../styles/globals.css';
 import ProgressBar from "@badrap/bar-of-progress";
-import Router from 'next/Router';
+import { useRouter } from 'next/dist/client/router';
+
+const Router = useRouter();
 
 const progress = new ProgressBar({
   size: 4,
